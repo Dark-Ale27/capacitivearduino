@@ -23,7 +23,7 @@ Serial.println(sensorValue);
 if (sensorValue > threshold) {
 
 digitalWrite(ledPin, HIGH);
-myServo.write(110);
+myServo.write(90);
 }
 
 else {
